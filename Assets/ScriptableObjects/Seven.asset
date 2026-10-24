@@ -15,4 +15,4 @@ MonoBehaviour:
   symbolName: Seven
   sprite: {fileID: 2193077994593488821, guid: 1fe55bc9f0804974a9d20dc2dd6571ce, type: 3}
   payout: 500
-  weight: 2
+  weight: 25

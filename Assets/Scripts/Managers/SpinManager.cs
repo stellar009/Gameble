@@ -12,13 +12,16 @@ public class SpinManager : MonoBehaviour
     public int startingCredits = 1000;
     public Animator handle;
 
-    public GameObject BetPanel;
+    public GameObject betPanel;
 
+    private Animator betPanelAnimator;
     private int credits;
     private bool isSpinning;
 
     void Start()
     {
+        betPanelAnimator = betPanel.GetComponent<Animator>();
+
         EnableBetPanel(false);
 
         credits = startingCredits;
@@ -106,7 +109,9 @@ public class SpinManager : MonoBehaviour
 
     public void EnableBetPanel(bool enable)
     {
-        BetPanel.SetActive(enable);
+        betPanelAnimator.SetBool("isClosed", enable);
+
+        betPanel.SetActive(enable);
     }
 
     public void ExitSlotMachine()

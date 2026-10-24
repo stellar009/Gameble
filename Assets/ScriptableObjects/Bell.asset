@@ -15,4 +15,4 @@ MonoBehaviour:
   symbolName: Bell
   sprite: {fileID: -2391669244243282240, guid: 472dc475ede80c54baa603db9983c3dd, type: 3}
   payout: 50
-  weight: 40
+  weight: 25

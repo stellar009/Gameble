@@ -15,4 +15,4 @@ MonoBehaviour:
   symbolName: Cherry
   sprite: {fileID: -5620835742497143143, guid: 689a83dd739223446adaf9a86c36173c, type: 3}
   payout: 100
-  weight: 10
+  weight: 25
