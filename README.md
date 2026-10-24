@@ -219,7 +219,7 @@ Assets/
 
 ## 📜 License
 
-This project was created for an internship submission. All third-party assets (sprites) are given by the organisation.
+This project was created for an internship submission. All third-party assets (sprites) are provided by the organisation.
 
 ---
 
