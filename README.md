@@ -219,7 +219,7 @@ Assets/
 
 ## 📜 License
 
-This project was created for an internship submission. All third-party assets (sprites, audio) are either original work or used under their respective free-use licenses.
+This project was created for an internship submission. All third-party assets (sprites, audio) are given by the organisation.
 
 ---
 
