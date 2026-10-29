@@ -143,7 +143,7 @@ Each `SymbolData` asset exposes a `weight` field in the Inspector. Higher weight
 3. Walk the symbol list, subtracting each symbol's weight from the random number.
 4. When the number drops to ≤ 0, return that symbol.
 
-This gives designers direct control over the game's RTP (Return To Player) without code changes. Cherry (weight 30) appears roughly 15× more often than Seven (weight 2), which makes the jackpot rare and exciting.
+This gives designers direct control over the game's RTP (Return To Player) without code changes.
 
 ### 4. Staggered Reel Stops via Sibling Index
 
